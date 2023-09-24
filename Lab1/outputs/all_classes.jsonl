@@ -1,0 +1,1232 @@
+[
+    {
+        "id": 44,
+        "student_number": 45,
+        "additional_details": {
+            "dob": "Ngeno, Alvin Kipkurui",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 6,
+        "student_number": 7,
+        "additional_details": {
+            "dob": "Dessalegn, Kalid Geleta",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 62,
+        "student_number": 63,
+        "additional_details": {
+            "dob": "Waweru, Monika Ng'endo",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 16,
+        "student_number": 17,
+        "additional_details": {
+            "dob": "Karanu, Neema Muthoni",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 27,
+        "student_number": 28,
+        "additional_details": {
+            "dob": "Moire, Henry Nyakundi",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 40,
+        "student_number": 41,
+        "additional_details": {
+            "dob": "Ngahu, David Gitonga",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 50,
+        "student_number": 51,
+        "additional_details": {
+            "dob": "Rotich, Mercy Chepngetich",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 9,
+        "student_number": 10,
+        "additional_details": {
+            "dob": "Githinji, Don Moses Thigiti",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 25,
+        "student_number": 26,
+        "additional_details": {
+            "dob": "Maritim, Kelvin Kipngeno",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 9,
+        "student_number": 10,
+        "additional_details": {
+            "dob": "Gitau, Sandra Wanjiru",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 31,
+        "student_number": 32,
+        "additional_details": {
+            "dob": "Muiyuro, Natasha Waithira",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 56,
+        "student_number": 57,
+        "additional_details": {
+            "dob": "Wangombe, Martin Mwangi",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 20,
+        "student_number": 21,
+        "additional_details": {
+            "dob": "Kinyua, Victor Mfana",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 30,
+        "student_number": 31,
+        "additional_details": {
+            "dob": "Mugendi, Emmanuel Muthomi",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 29,
+        "student_number": 30,
+        "additional_details": {
+            "dob": "Muchiri, Lynn Wairimu",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 19,
+        "student_number": 20,
+        "additional_details": {
+            "dob": "Kimani, Alex Mwangi",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 43,
+        "student_number": 44,
+        "additional_details": {
+            "dob": "Nyamosi, Edmond Omwega",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 57,
+        "student_number": 58,
+        "additional_details": {
+            "dob": "Wanyonyi, Brian Newton",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 2,
+        "student_number": 3,
+        "additional_details": {
+            "dob": "Ang'edu, Jude Ocomil",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 26,
+        "student_number": 27,
+        "additional_details": {
+            "dob": "Masaka, Zivai Takadiwa David",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 3,
+        "student_number": 4,
+        "additional_details": {
+            "dob": "Barasa, Michelle Nekesa",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 37,
+        "student_number": 38,
+        "additional_details": {
+            "dob": "Mwai, David King",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 58,
+        "student_number": 59,
+        "additional_details": {
+            "dob": "Wasike, Nicole Jones Nekesa",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 12,
+        "student_number": 13,
+        "additional_details": {
+            "dob": "Ismail, Ruweida Ali",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 7,
+        "student_number": 8,
+        "additional_details": {
+            "dob": "Epetet, Keith Lokwei",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 26,
+        "student_number": 27,
+        "additional_details": {
+            "dob": "Mbwanga, Emmanuel Chivunira",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 45,
+        "student_number": 46,
+        "additional_details": {
+            "dob": "Ngigi, Michael Macharia",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 6,
+        "student_number": 7,
+        "additional_details": {
+            "dob": "Dulo, Humphrey James",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 32,
+        "student_number": 33,
+        "additional_details": {
+            "dob": "Muli, Grace Kanini",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 8,
+        "student_number": 9,
+        "additional_details": {
+            "dob": "Ger, David Otieno",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 48,
+        "student_number": 49,
+        "additional_details": {
+            "dob": "Nyambura, Erica",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 36,
+        "student_number": 37,
+        "additional_details": {
+            "dob": "Mwago, Megan Dette",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 51,
+        "student_number": 52,
+        "additional_details": {
+            "dob": "Sehmi, Singh Jeevan",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 14,
+        "student_number": 15,
+        "additional_details": {
+            "dob": "Karani, Amanda Ngendo",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 19,
+        "student_number": 20,
+        "additional_details": {
+            "dob": "Kimutai, Peter Kibet",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 54,
+        "student_number": 55,
+        "additional_details": {
+            "dob": "Wahu, Bridget Makena",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 33,
+        "student_number": 34,
+        "additional_details": {
+            "dob": "Muroki, Mark Gichuhi",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 7,
+        "student_number": 8,
+        "additional_details": {
+            "dob": "Etemesi, Caleb Asira",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 2,
+        "student_number": 3,
+        "additional_details": {
+            "dob": "Asava, Wayne Majani",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 47,
+        "student_number": 48,
+        "additional_details": {
+            "dob": "Omondi, Winfred Achieng",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 22,
+        "student_number": 23,
+        "additional_details": {
+            "dob": "Leting, Sylvester Kiplagat",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 0,
+        "student_number": 1,
+        "additional_details": {
+            "dob": "Abwoga, Adrian Jared Paul",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 31,
+        "student_number": 32,
+        "additional_details": {
+            "dob": "Mukiri, Maryanne Wanjiku",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 17,
+        "student_number": 18,
+        "additional_details": {
+            "dob": "Kiarie, Samuel Ndungu",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 5,
+        "student_number": 6,
+        "additional_details": {
+            "dob": "Cheboi, Lormotum Noel",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 42,
+        "student_number": 43,
+        "additional_details": {
+            "dob": "Ndungu, Sarah Laura Wangari",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 39,
+        "student_number": 40,
+        "additional_details": {
+            "dob": "Nabaala, Andrew Kasaine",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 46,
+        "student_number": 47,
+        "additional_details": {
+            "dob": "Njuguna, Elizabeth Njoki",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 41,
+        "student_number": 42,
+        "additional_details": {
+            "dob": "Ndambiri, Yvonne Nyambura",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 15,
+        "student_number": 16,
+        "additional_details": {
+            "dob": "Kathurima, Ryan Kinoti",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 12,
+        "student_number": 13,
+        "additional_details": {
+            "dob": "Kamau, Edinah Nyambura",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 28,
+        "student_number": 29,
+        "additional_details": {
+            "dob": "Morekwa, David Nyamongo",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 41,
+        "student_number": 42,
+        "additional_details": {
+            "dob": "Ngari, Sifa Gathoni",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 50,
+        "student_number": 51,
+        "additional_details": {
+            "dob": "Ochanda, Steven Joel Jona",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 60,
+        "student_number": 61,
+        "additional_details": {
+            "dob": "Wakaba, Rosemary Njeri",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 48,
+        "student_number": 49,
+        "additional_details": {
+            "dob": "Otao, Davis Mokora",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 22,
+        "student_number": 23,
+        "additional_details": {
+            "dob": "Kithae, Eric Muriithi",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 45,
+        "student_number": 46,
+        "additional_details": {
+            "dob": "Omal, Warren",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 53,
+        "student_number": 54,
+        "additional_details": {
+            "dob": "Wafula, Gideon Simiyu",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 11,
+        "student_number": 12,
+        "additional_details": {
+            "dob": "Kabui, Michelle Miceere",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 29,
+        "student_number": 30,
+        "additional_details": {
+            "dob": "Mugambi, Kelvin Karani",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 21,
+        "student_number": 22,
+        "additional_details": {
+            "dob": "Kyalo, Felicia Mutheu",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 37,
+        "student_number": 38,
+        "additional_details": {
+            "dob": "Mutunga, Patience Kamanthe",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 10,
+        "student_number": 11,
+        "additional_details": {
+            "dob": "Hassan, Masoud Ali",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 15,
+        "student_number": 16,
+        "additional_details": {
+            "dob": "Kangethe, Sharon Wanjiru",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 49,
+        "student_number": 50,
+        "additional_details": {
+            "dob": "Rintaugu, Mugambi Nteere",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 38,
+        "student_number": 39,
+        "additional_details": {
+            "dob": "Mwanda, George Josiah",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 8,
+        "student_number": 9,
+        "additional_details": {
+            "dob": "Frances, Ayango",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 28,
+        "student_number": 29,
+        "additional_details": {
+            "dob": "Morara, Keith Matwere",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 52,
+        "student_number": 53,
+        "additional_details": {
+            "dob": "Ombeni, Mwenzangu Faraja",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 24,
+        "student_number": 25,
+        "additional_details": {
+            "dob": "Kwoba, Alex Wafula",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 44,
+        "student_number": 45,
+        "additional_details": {
+            "dob": "Nyang'or, Olive Menorah",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 14,
+        "student_number": 15,
+        "additional_details": {
+            "dob": "Kamau, Ann Mumbi",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 42,
+        "student_number": 43,
+        "additional_details": {
+            "dob": "Nguthiru, Edwin Ndiritu",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 32,
+        "student_number": 33,
+        "additional_details": {
+            "dob": "Mungai, Kihanya",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 40,
+        "student_number": 41,
+        "additional_details": {
+            "dob": "Naibei, Monicah",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 5,
+        "student_number": 6,
+        "additional_details": {
+            "dob": "Budembeshe, Moses Kasuni",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 53,
+        "student_number": 54,
+        "additional_details": {
+            "dob": "Ombongi, Caleb Magare",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 52,
+        "student_number": 53,
+        "additional_details": {
+            "dob": "Vasani, Aman Upinkumar",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 59,
+        "student_number": 60,
+        "additional_details": {
+            "dob": "Wachira, Joy Muthoni",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 43,
+        "student_number": 44,
+        "additional_details": {
+            "dob": "Ng'ang'a, Ian Mutuge",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 1,
+        "student_number": 2,
+        "additional_details": {
+            "dob": "Akong'o, Shanelle Hilda Anyango",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 39,
+        "student_number": 40,
+        "additional_details": {
+            "dob": "Ndirangu, Denise Nyambura",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 21,
+        "student_number": 22,
+        "additional_details": {
+            "dob": "Kirema, Ian Muteithia",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 13,
+        "student_number": 14,
+        "additional_details": {
+            "dob": "Johnson, Myles Adebayo",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 36,
+        "student_number": 37,
+        "additional_details": {
+            "dob": "Mutunga, Eric Kiamba",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 10,
+        "student_number": 11,
+        "additional_details": {
+            "dob": "Haji, Ashir Ali",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 35,
+        "student_number": 36,
+        "additional_details": {
+            "dob": "Mutinda, Bryan Lwaya",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 55,
+        "student_number": 56,
+        "additional_details": {
+            "dob": "Owens, Nicole Owens",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 4,
+        "student_number": 5,
+        "additional_details": {
+            "dob": "Atenya, Anthony Magunga Ikobwa",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 20,
+        "student_number": 21,
+        "additional_details": {
+            "dob": "Kinegeni, Terry",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 30,
+        "student_number": 31,
+        "additional_details": {
+            "dob": "Muhia, Victor Mwaura",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 25,
+        "student_number": 26,
+        "additional_details": {
+            "dob": "Mbugua, Nathan Ng'ethe",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 61,
+        "student_number": 62,
+        "additional_details": {
+            "dob": "Wanjao, Louis Mbugua",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 35,
+        "student_number": 36,
+        "additional_details": {
+            "dob": "Mutua, Franklin Karanja",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 33,
+        "student_number": 34,
+        "additional_details": {
+            "dob": "Musyoka, Brian Kioko",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 1,
+        "student_number": 2,
+        "additional_details": {
+            "dob": "Ali, Sumeiya Abdulle Abdirizak",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 24,
+        "student_number": 25,
+        "additional_details": {
+            "dob": "Mahia, Jerome Kamau",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 34,
+        "student_number": 35,
+        "additional_details": {
+            "dob": "Mutende, Arabella Fanisheba",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 51,
+        "student_number": 52,
+        "additional_details": {
+            "dob": "Ogutu, Brenda Mary Anyango",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 17,
+        "student_number": 18,
+        "additional_details": {
+            "dob": "Kiilu, Jeff Kioko",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 49,
+        "student_number": 50,
+        "additional_details": {
+            "dob": "Nzioki, Maureen Mutete",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 23,
+        "student_number": 24,
+        "additional_details": {
+            "dob": "Lihanda, Glen Musa",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 13,
+        "student_number": 14,
+        "additional_details": {
+            "dob": "Kamau, Jesse Mbugua",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 18,
+        "student_number": 19,
+        "additional_details": {
+            "dob": "Kiiru, Cynthia Everlyn Muthoni",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 16,
+        "student_number": 17,
+        "additional_details": {
+            "dob": "Kennedy, Angel Venoliah",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 55,
+        "student_number": 56,
+        "additional_details": {
+            "dob": "Wango, Michael Mundati",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 56,
+        "student_number": 57,
+        "additional_details": {
+            "dob": "Patel, Jay Hirji",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 23,
+        "student_number": 24,
+        "additional_details": {
+            "dob": "Korir, Kevin Kimutai",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 46,
+        "student_number": 47,
+        "additional_details": {
+            "dob": "Omondi, Emmanuel Neville",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 0,
+        "student_number": 1,
+        "additional_details": {
+            "dob": "Adhiambo, Jane Daisy",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 47,
+        "student_number": 48,
+        "additional_details": {
+            "dob": "Nugi, Andrew Kiarie",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 34,
+        "student_number": 35,
+        "additional_details": {
+            "dob": "Mutaki, Ruby Mbete",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 11,
+        "student_number": 12,
+        "additional_details": {
+            "dob": "Hassan, Fardowsa Abduhakim",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 57,
+        "student_number": 58,
+        "additional_details": {
+            "dob": "Tonui, Martin",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 18,
+        "student_number": 19,
+        "additional_details": {
+            "dob": "Kihara, Shannon Kendi",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 27,
+        "student_number": 28,
+        "additional_details": {
+            "dob": "Mohamed, Ally Mahamud",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 3,
+        "student_number": 4,
+        "additional_details": {
+            "dob": "Arunga, Kyla Neema",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 54,
+        "student_number": 55,
+        "additional_details": {
+            "dob": "Orony, Charis Ng'wono",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[yes]"
+        }
+    },
+    {
+        "id": 4,
+        "student_number": 5,
+        "additional_details": {
+            "dob": "Bigingi, Ian Duncan",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 63,
+        "student_number": 64,
+        "additional_details": {
+            "dob": "Waweru, Trevor Kariuki",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 38,
+        "student_number": 39,
+        "additional_details": {
+            "dob": "Nalugala, Venessa Chebukwa",
+            "gender": "F",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    },
+    {
+        "id": 58,
+        "student_number": 59,
+        "additional_details": {
+            "dob": "Tum, Bramwel Kipchirchir",
+            "gender": "M",
+            "name_similar": "[no]",
+            "special_character": "[no]"
+        }
+    }
+]
