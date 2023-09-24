@@ -85,11 +85,18 @@ def generate_file(en_file: str, ref_files: List[str]):
                 assert isinstance(other_locale, str)
                 locale = other_locale.split("-")[0]
                 # finally write the data
-                name = "./en-" + locale + ".xlsx"
+                # create a new directory for the output
+                os.makedirs("./outputs", exist_ok=True)
+                name = "./outputs/en-" + locale + ".xlsx"
                 logging.info(f"Saving to name {name}\n")
                 processed_df.to_excel(name, engine="openpyxl")
 
 
-def walk_directory(en_file: str, in_dir: str):
+def walk_directory(ref_file: str, in_dir: str):
+    """
+    param ref_file: Reference file
+    param in_dir: A directory containing the massive dataset
+    """
+    # iterate to get all files into alist
     files = [os.path.join(in_dir, f) for f in os.listdir(in_dir) if os.path.isfile(os.path.join(in_dir, f))]
-    generate_file(en_file, files)
+    generate_file(ref_file, files)
