@@ -1,7 +1,8 @@
 import json
 import logging
 import os.path
-from typing import Dict, List, Any
+import pprint
+from typing import Dict, List, Any, Tuple
 
 import pandas as pd
 
@@ -61,11 +62,11 @@ def process_two_datasets(ref_df: pd.DataFrame, other: pd.DataFrame) -> pd.DataFr
     return new_df
 
 
-def generate_file(en_file: str, ref_files: List[str]):
+def generate_pivot_file(en_file: str, ref_files: List[str]):
     with open(en_file) as op:
         # read the reference file here
         en_pd = read_jsonl_input(opened_file=op)
-        logging.info(f"Loaded the reference EN file at {en_file}")
+        logging.info(f"Loaded the reference EN file at {en_file}\n")
         for ref_file in ref_files:
             if os.path.samefile(en_file, ref_file):
                 # don't generate en-en mappings
@@ -86,17 +87,73 @@ def generate_file(en_file: str, ref_files: List[str]):
                 locale = other_locale.split("-")[0]
                 # finally write the data
                 # create a new directory for the output
-                os.makedirs("./outputs", exist_ok=True)
-                name = "./outputs/en-" + locale + ".xlsx"
+                os.makedirs("./outputs/task1", exist_ok=True)
+                name = "./outputs/task1/en-" + locale + ".xlsx"
                 logging.info(f"Saving to name {name}\n")
                 processed_df.to_excel(name, engine="openpyxl")
 
 
 def walk_directory(ref_file: str, in_dir: str):
     """
+    Walk a directory containing massive dataset and generate a ref-xx pivot sheet
+
     param ref_file: Reference file
     param in_dir: A directory containing the massive dataset
     """
     # iterate to get all files into alist
     files = [os.path.join(in_dir, f) for f in os.listdir(in_dir) if os.path.isfile(os.path.join(in_dir, f))]
-    generate_file(ref_file, files)
+    generate_pivot_file(ref_file, files)
+
+
+def separate_jsonl(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    dev: pd.DataFrame = df[df["partition"] == "dev"]
+    test: pd.DataFrame = df[df["partition"] == "test"]
+    train: pd.DataFrame = df[df["partition"] == "train"]
+
+    return train, test, dev
+
+
+def partition_and_save(df: pd.DataFrame, out_file_name: str):
+    (train, test, dev) = separate_jsonl(df)
+    # extract locale from the first df row
+    other_locale: str = df.iloc[0]["locale"]
+    # ensure the datatype is string
+    assert isinstance(other_locale, str)
+    locale = other_locale.split("-")[0]
+    train.to_json(out_file_name + f"/{locale}_train.jsonl", orient="records", lines=True)
+    test.to_json(out_file_name + f"/{locale}_test.jsonl", orient="records", lines=True)
+    dev.to_json(out_file_name + f"/{locale}_dev.jsonl", orient="records", lines=True)
+
+    # we return train test because it's used for the next shit
+    return train
+
+
+def start_w3(en, sw, dw):
+    path_name = "./outputs/task2/"
+    en_df = read_jsonl_input(en)
+    sw_df = read_jsonl_input(sw)
+    dw_df = read_jsonl_input(dw)
+    os.makedirs(path_name, exist_ok=True)
+    train_en = partition_and_save(en_df, path_name)
+    train_sw = partition_and_save(sw_df, path_name)
+    train_df = partition_and_save(dw_df, path_name)
+
+    # drop indices
+    train_en.reset_index(drop=True, inplace=True)
+    train_sw.reset_index(drop=True, inplace=True)
+    train_df.reset_index(drop=True, inplace=True)
+
+    # combine
+    train_data = pd.concat([train_en, train_sw, train_df])
+    # drop all un-needed columns
+    train_data = train_data[["id", "utt"]]
+    # reset indices since train_en and train_sw have duplicate indices
+    train_data.reset_index(drop=True, inplace=True)
+    train_json = []
+    for each_line in train_data.itertuples():
+        record = {"id": each_line[1], "utt": each_line[2]}
+        train_json.append(record)
+    string_json = json.dumps(train_json, indent=4, ensure_ascii=False)
+    print(string_json)
+
+    pass
