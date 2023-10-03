@@ -62,13 +62,23 @@ def process_two_datasets(ref_df: pd.DataFrame, other: pd.DataFrame) -> pd.DataFr
     return new_df
 
 
-def generate_pivot_file(en_file: str, ref_files: List[str]):
-    with open(en_file) as op:
+def generate_pivot_file(input_directory: str, output_dir: str):
+    en_file = "en-US.jsonl"
+    en_path = os.path.join(input_directory, en_file)
+    if not os.path.exists(os.path.join(input_directory, en_file)):
+        logging.error(f"The path {en_path} doesn't exist, cannot continue anymore")
+        return
+    if not os.path.isdir(output_dir):
+        logging.error(f"Path {output_dir} doesn't exist")
+        return
+    files = [os.path.join(output_dir, f) for f in os.listdir(output_dir) if os.path.isfile(f)]
+
+    with open(en_path) as op:
         # read the reference file here
         en_pd = read_jsonl_input(opened_file=op)
-        logging.info(f"Loaded the reference EN file at {en_file}\n")
-        for ref_file in ref_files:
-            if os.path.samefile(en_file, ref_file):
+        logging.info(f"Loaded the reference EN file at {en_path}\n")
+        for ref_file in files:
+            if os.path.samefile(en_path, ref_file):
                 # don't generate en-en mappings
                 continue
             with open(ref_file) as opened_ref:
@@ -100,7 +110,7 @@ def walk_directory(ref_file: str, in_dir: str):
     param ref_file: Reference file
     param in_dir: A directory containing the massive dataset
     """
-    # iterate to get all files into alist
+    # iterate to get all files into a list
     files = [os.path.join(in_dir, f) for f in os.listdir(in_dir) if os.path.isfile(os.path.join(in_dir, f))]
     generate_pivot_file(ref_file, files)
 
@@ -132,11 +142,11 @@ def start_w3(en, sw, dw):
     path_name = "./outputs/task2/"
     en_df = read_jsonl_input(en)
     sw_df = read_jsonl_input(sw)
-    dw_df = read_jsonl_input(dw)
+    de_df = read_jsonl_input(dw)
     os.makedirs(path_name, exist_ok=True)
     train_en = partition_and_save(en_df, path_name)
     train_sw = partition_and_save(sw_df, path_name)
-    train_df = partition_and_save(dw_df, path_name)
+    train_df = partition_and_save(de_df, path_name)
 
     # drop indices
     train_en.reset_index(drop=True, inplace=True)
@@ -147,7 +157,7 @@ def start_w3(en, sw, dw):
     train_data = pd.concat([train_en, train_sw, train_df])
     # drop all un-needed columns
     train_data = train_data[["id", "utt"]]
-    # reset indices since train_en and train_sw have duplicate indices
+    # reset indices since the concatenated dataframes have duplicate indices
     train_data.reset_index(drop=True, inplace=True)
     train_json = []
     for each_line in train_data.itertuples():
@@ -155,5 +165,3 @@ def start_w3(en, sw, dw):
         train_json.append(record)
     string_json = json.dumps(train_json, indent=4, ensure_ascii=False)
     print(string_json)
-
-    pass
